@@ -829,7 +829,13 @@
             "ua": "okhttp",
             "url": "https://epg.pw/test_channels_taiwan.m3u"
         },
-        {
+        { 
+	        "name": "🐬午夜剧场🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/午夜剧场.txt"
+        },
+	    {
             "name": "🐬海豚佬xxx视频资源🔞",
             "type": 0,
             "ua": "okhttp",
