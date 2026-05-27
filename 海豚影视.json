@@ -274,22 +274,20 @@
             "ext": ""
         }, 
 	  {
-            "key":"zp024",
-            "name":"🐬BT天堂-伦理｜🔞",
-            "type":0,
-            "api":"http://bttcj.com/inc/sapi.php",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
-        {
-            "key":"*KK写真资源",
-            "name":"🐬KK写真资源-伦理｜🔞",
+            "key":"💞老鸭资源💞",
+            "name":"🐬老鸭资源｜🔞",
             "type":1,
-            "api":"https://kkzy.me/api.php/provide/vod/",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
+            "api":"https://api.apilyzy.com/api.php/provide/vod/",
+            "searchable":0,
+            "quickSearch":0
+        },
+         {
+            "key":"*CK资源",
+            "name":"🐬CK资源｜🔞",
+            "type":1,
+            "api":"http://www.feifei67.com/api.php/provide/vod/",
+            "searchable":0,
+            "quickSearch":0
         },
 	{
       "key": "*AIvin",
