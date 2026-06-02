@@ -322,12 +322,19 @@
 			"api": "https://xn--fjq53n.xyz/Ting/yinyue/网易云音乐1.py"
 		},
         {
+        "key":"WhosTV",
+        "name":"🐬WhosTV🔞",
+        "type":3,
+        "api":"csp_WhosTV",
+        "homePage":"https://fgblh.github.io/uhuj.github.io/missav.html"
+        },
+        {
         "key":"MissAV",
         "name":"🐬MissAV┃番号🔞",
         "type":3,
         "api":"csp_MissAV",
-        "homePage":"https://fgblh.github.io/uhuj.github.io/missav.html"
-      },
+        "homePage":"https://fgblh.github.io/uhuj.github.io/WhosTV.html"
+        },
 	{
       "key": "*AIvin",
       "name": "🐬AIvin｜🔞",
