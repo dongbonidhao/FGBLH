@@ -52,6 +52,7 @@
         "api":"csp_ppnix",
         "homePage":"https://fgblh.github.io/uhuj.github.io/ppnix.html"
       },
+      {"key": "aidan", "name": "🐬艾旦影视(聚)", "type": 1, "api": "https://lovedan.net/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "filterable": 1},
       {"key": "ikun", "name": "🐬爱坤┃影视(有三级片)", "type": 1, "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json", "searchable": 1, "quickSearch": 1, "filterable": 1},
       {"key": "U酷資源", "name": "🐬U酷資源(有三级片)", "type": 1, "api": "https://api.ukuapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "filterable": 1},
       {"key": "ttzy", "name": "🐬天天┃影视(有三级片)🔞", "type": 1, "api": "https://api.1080zyku.com/inc/apijson.php", "searchable": 1, "quickSearch": 1, "filterable": 1},
