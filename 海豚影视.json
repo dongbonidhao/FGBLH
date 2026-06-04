@@ -377,15 +377,6 @@
       "quickSearch": 0,
       "filterable": 0
     },
-         {
-            "key": "X细胞",
-            "name": "🐬X细胞｜🔞",
-            "type": 1,
-            "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
-            "quickSearch": 1,
-            "searchable": 1,
-            "filterable": 0
-        },
 		 {
             "key": "黄色仓库|AV",
             "name": "🐬黄色仓库(旧)｜🔞",
