@@ -39,12 +39,18 @@
         "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002108-a4795930ec.js"
         },
 		{
-		"key": "茫茫",
+		"key": "芒芒",
         "name": "🐬芒果4K",
         "type": 3,
          "api": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
          "ext": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
         },
+		{
+      "key": "MGtv",
+      "name": "🐬芒果TV.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/芒果TV.py",
+       },
 		{
             "key": "leo_danmaku",
             "name": "LEO | 弹幕",
