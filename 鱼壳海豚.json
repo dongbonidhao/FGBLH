@@ -459,7 +459,7 @@
          },  
         {
       "key": "cj_360资源",
-      "name": "🐬360丨短剧",
+      "name": "🐬360[短剧]",
       "type": 1,
       "searchable": 0,
       "quickSearch": 1,
@@ -478,13 +478,13 @@
     },
 		{
 			"key": "smdj",
-			"name": "🐬星芽短剧.py",
+			"name": "🐬星芽短剧.py[短剧]",
 			"type": 3,
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/星芽短剧.py"
 		},
 		{
 			"key": "hmjc",
-			"name": "🐬河马剧场.py",
+			"name": "🐬河马剧场.py[短剧]",
 			"type": 3,
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/河马剧场.py"
 		},
