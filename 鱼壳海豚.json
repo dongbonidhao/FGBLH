@@ -603,6 +603,12 @@
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/每日大赛.py"
 		},
 		{
+			"key": "hstv",
+			"name": "🐬好色tv.py｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/好色TV.py"
+		},
+		{
 			"key": "xmzb",
 			"name": "🐬熊猫视频.py｜🔞[成人]",
 			"type": 3,
