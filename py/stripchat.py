@@ -19,9 +19,12 @@ sys.path.append('..')
 class Spider(Spider):
 
     def init(self, extend="{}"):
-        self.host='https://zh.stripol.com/'
+        origin = 'https://zh.stripol.com/'
+        self.host = origin
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0'
+            'Origin': origin,
+            'Referer': f"{origin}/",
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0'
         }
         self.stripchat_key = self.decode_key_compact()
         # 缓存字典
@@ -78,7 +81,7 @@ class Spider(Spider):
                 "vod_id": name,
                 "vod_name": f"{flag}{name}",
                 "vod_pic": f"https://img.doppiocdn.net/thumbs/{stamp}/{id}",
-                "vod_remarks": "购票表演中" if vod['groupShowType'] else ""
+                "vod_remarks": remark
             })
         total = int(rsp['filteredCount'])
         result = {}
@@ -152,7 +155,7 @@ class Spider(Spider):
         return result
 
     def playerContent(self, flag, id, vipFlags):
-        domain = f"https://edge-hls.growcdnssedge.com/hls//hls/{id}/master/{id}_auto.m3u8?playlistType=lowLatency"
+        domain = f"https://edge-hls.growcdnssedge.com/hls/{id}/master/{id}_auto.m3u8?playlistType=lowLatency"
         rsp = requests.get(domain, headers=self.headers).text
         lines = rsp.strip().split('\n')
         psch = ''
@@ -172,6 +175,7 @@ class Spider(Spider):
                 url_base = lines[i + 1]
                 # 组合最终的URL，并加上psch和pkey参数
                 full_url = f"{url_base}&psch={psch}&pkey={pkey}"
+                proxy_url = f"{self.getProxyUrl()}&url={quote(full_url)}"
                 # 将画质和URL添加到列表中
                 url.append(qn)
                 url.append(full_url)
