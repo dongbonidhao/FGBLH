@@ -23,12 +23,6 @@
           "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/优酷视频.py"
         },
 		{
-          "key": "yvm",
-          "name": "🐬央视频.py",
-          "type": 3,
-          "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/央视频.py"
-        },
-		{
       "key": "ppx",
       "name": "🐬皮皮虾.py",
       "type": 3,
